@@ -323,7 +323,7 @@ for step in range(0, epoch):
         del loss2
         del loss_f
 
-    cost_name = '/home/omnisky/sde/NanTH/result/irl/' + str(step) + 'cost_net' + '.pth'
+    cost_name = '' + str(step) + 'cost_net' + '.pth'
     torch.save(cost_f.state_dict(), cost_name)
     torch.cuda.empty_cache()
     with torch.no_grad():
