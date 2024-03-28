@@ -13,7 +13,7 @@ import datetime
 import math
 import mae_model
 import os
-# SEEDS
+
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark = True
 seed = 180950483
