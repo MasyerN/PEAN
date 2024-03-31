@@ -4,7 +4,7 @@ Abstract -- A crucial asset for deep learning in Whole Slide Image (WSI) diagnos
 We have provided a download link for the dataset used in this study: (https://pan.baidu.com/s/1g_9mC1Q8_BQuySvVBSK5cA?pwd=4fuj  4fuj), which includes data for 150 cases (Whole Slide Images, slide reading data, and manual annotations). Additional data can be requested from the authors for research purposes. Due to the constraints of the double-blind review process, the application channel will be opened after the blind review phase concludes.
 
 
-Environment description: Nvidia A6000 GPU with Python=3.7.12 and cuda=11.1. torch=1.8.0. torchvision=0.9.0.  The remaining environmental dependencies refer to GCMAE (https://github.com/StarUniversus/gcmae). It is worth noting that this environment may cause conflicts in the torch version. In order to address this conflict, we have chosen to modify the torch source code. Please query _six.py
+Environment description: Nvidia A6000 GPU with Python=3.7.12 and cuda=11.1. torch=1.8.0. torchvision=0.9.0.  The remaining environmental dependencies refer to GCMAE (https://github.com/StarUniversus/gcmae). It is worth noting that this environment may cause conflicts in the torch version. In order to address this conflict, we have chosen to modify the torch source code. Please query /Get_expertise/__six.py
 
 
 The model PEAN proposed in this study is carried out in multiple steps: 1. Extracting the experience of pathologists; 2. Build a classification model; 3. Imitate the behavior of pathologists.
