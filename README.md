@@ -12,5 +12,6 @@ Regarding the initial step of extracting pathologists' expertise, please execute
 
 In this step, we used a pre trained encoder: GCMAE (https://github.com/StarUniversus/gcmae). We have uploaded the encoder weights and can modify them in/Get_expertise/maeModel.py to customize the encoder. (https://pan.baidu.com/s/1jUoXKi5xCaKl53dpxjMqzg?pwd=asai, asai) 
 
+In the second step, we developed PEAN-C using pathologist experience for feature distillation based on Transformer. Please refer to/PAN/req.txt for the environmental dependencies of the second step. （https://github.com/szc19990412/TransMIL）
 
 
