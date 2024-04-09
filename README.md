@@ -10,6 +10,7 @@ Environment description of Step1: Nvidia A6000 GPU with Python=3.7.12 and cuda=1
 
 Regarding the initial step of extracting pathologists' expertise, please execute /Get_expertise/IRL.py. Prior to execution, ensure the paths for the raw data and the model storage are correctly specified at lines 30 and 326, respectively. The raw data consists of a dictionary saved by PyTorch: {'train': [['ndpi': xx, 'epr': xx], ...], 'test': [['ndpi': xx, 'epr': xx], ...]}. Herein, 'ndpi' represents the path to the Whole Slide Images (WSI), and 'epr' denotes the corresponding slide reading data.
 
-In this step, we used a pre trained encoder: GCMAE. We have uploaded the encoder weights and can modify them in/Get_expertise/maeModel. py to customize the encoder
+In this step, we used a pre trained encoder: GCMAE (https://github.com/StarUniversus/gcmae). We have uploaded the encoder weights and can modify them in/Get_expertise/maeModel.py to customize the encoder. (https://pan.baidu.com/s/1jUoXKi5xCaKl53dpxjMqzg?pwd=asai, asai) 
+
 
 
