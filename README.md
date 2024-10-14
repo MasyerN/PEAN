@@ -15,3 +15,5 @@ In this step, we used a pre trained encoder: GCMAE (https://github.com/StarUnive
 In the second step, we developed PEAN-C using pathologist experience for feature distillation based on Transformer. Please refer to/PAN/req.txt for the environmental dependencies of the second step. （https://github.com/szc19990412/TransMIL）
 
 In the third step, we developed PEAN-I based on reinforcement learning, which can mimic the pathologist's slide-reviewing behavior. The environmental dependency in the third step is the same as in the first step.
+
+Installing the code on a computer with GPU-A6000 usually takes 10 minutes, and running an instance usually takes 1 minute.
